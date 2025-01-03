@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beach Tennis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+        }
+        header {
+            background: #008080;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #008080;
+            font-weight: bold;
+        }
+        .hero {
+            background: url('beach-tennis.jpg') no-repeat center center/cover;
+            height: 300px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3em;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+        }
+        .content {
+            padding: 20px;
+        }
+        .cards {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            width: 300px;
+            padding: 15px;
+            text-align: center;
+        }
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #008080;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Beach Tennis</h1>
+        <p>O esporte que combina diversão e desafio na areia</p>
+    </header>
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#contato">Contato</a>
+    </nav>
+    <div class="hero">
+        <h1>Descubra o Beach Tennis</h1>
+    </div>
+    <div class="content" id="sobre">
+        <h2>Sobre o Beach Tennis</h2>
+        <p>Beach Tennis é um esporte dinâmico que mistura elementos do tênis tradicional, vôlei de praia e badminton. Praticado na areia, é ideal para quem busca saúde e diversão ao ar livre.</p>
+    </div>
+    <div class="content" id="galeria">
+        <h2>Galeria</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="beach-tennis1.jpg" alt="Partida de Beach Tennis">
+                <p>Competição na praia</p>
+            </div>
+            <div class="card">
+                <img src="beach-tennis2.jpg" alt="Raquetes de Beach Tennis">
+                <p>Equipamento para todos os níveis</p>
+            </div>
+            <div class="card">
+                <img src="beach-tennis3.jpg" alt="Grupo jogando Beach Tennis">
+                <p>Momentos incríveis com amigos</p>
+            </div>
+        </div>
+    </div>
+    <footer id="contato">
+        <p>Contato: beachtennis@example.com | Redes sociais: @beachtennis</p>
+    </footer>
+</body>
+</html>
